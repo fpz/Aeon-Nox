@@ -241,7 +241,7 @@
 					<colordiffuse>grey2</colordiffuse>
 					<include>MediaFlagVars</include>
 					<texture>$VAR[SourceFlagVar,flags/video/,.png]</texture>
-					<visible>!String.IsEmpty(ListItem.VideoCodec)</visible>
+					<!-- <visible>!String.IsEmpty(ListItem.VideoCodec)</visible> -->
 					<include>VisibleFadeAnimation</include>
 				</control>
 				<control type="group">

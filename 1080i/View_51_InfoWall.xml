@@ -161,10 +161,10 @@
 					<orientation>horizontal</orientation>
 					<usecontrolcoords>true</usecontrolcoords>
 					<control type="image">
-						<left>16</left>
-						<top>11</top>
-						<width>42</width>
-						<height>28</height>
+						<left>25</left>
+						<top>-7</top>
+						<width>100</width>
+						<height>60</height>
 						<aspectratio>keep</aspectratio>
 						<texture>$VAR[UnFocusHDIndicator]</texture>
 						<colordiffuse>grey</colordiffuse>
