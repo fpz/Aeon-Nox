@@ -354,7 +354,7 @@
 						<visible>!ControlGroup(9001).HasFocus</visible>
 						<include>SettingsFadeAnimation</include>
 						<control type="image">
-							<width>198</width>
+							<width>200</width>
 							<colordiffuse>grey</colordiffuse>
 							<include>MediaFlagVars</include>
 							<texture>$INFO[ListItem.VideoResolution,flags/resolution/,.png]</texture>
