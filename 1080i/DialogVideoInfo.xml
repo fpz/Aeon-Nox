@@ -199,19 +199,19 @@
 						<control type="label">
 							<top>2</top>
 							<width>160</width>
-							<height>30</height>
-							<align>center</align>
-							<label>Termine à</label>
-							<font>font12</font>
-							<textcolor>grey</textcolor>
-						</control>
-						<control type="label">
-							<top>12</top>
-							<width>160</width>
-							<height>90</height>
+							<height>60</height>
 							<align>center</align>
 							<label>$INFO[ListItem.EndTime]</label>
 							<font>font48_bold</font>
+							<textcolor>grey</textcolor>
+						</control>
+						<control type="label">
+							<top>52</top>
+							<width>160</width>
+							<height>30</height>
+							<align>center</align>
+							<label>heure de fin</label>
+							<font>font12</font>
 							<textcolor>grey</textcolor>
 						</control>
 					</control>
