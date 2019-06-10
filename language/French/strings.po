@@ -867,3 +867,7 @@ msgstr "Masquer les évaluations pour la vue en liste"
 msgctxt "#31962"
 msgid "This toggles the visibility of ratings in views of type List, LowList and TriPanel, except if sorted by rating."
 msgstr "Bascule la visibilité des évaluations dans les vues Liste, Liste basse et Tri panneau, sauf si le tri est fait par évaluation."
+
+msgctxt "#73001"
+msgid "End time"
+msgstr "Heure de fin"

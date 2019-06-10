@@ -210,7 +210,7 @@
 							<width>160</width>
 							<height>30</height>
 							<align>center</align>
-							<label>heure de fin</label>
+							<label>[LOWERCASE]$LOCALIZE[73001][/LOWERCASE]</label>
 							<font>font12</font>
 							<textcolor>grey</textcolor>
 						</control>

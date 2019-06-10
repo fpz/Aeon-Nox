@@ -1127,3 +1127,7 @@ msgstr ""
 msgctxt "#31964"
 msgid "NoTo"
 msgstr ""
+
+msgctxt "#73001"
+msgid "End time"
+msgstr "End Time"
