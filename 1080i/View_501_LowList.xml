@@ -32,52 +32,66 @@
 				<height>270</height>
 				<animation effect="slide" end="0,-170" time="120" condition="!Skin.HasSetting(nohighlist)">Conditional</animation>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[31000]:[/COLOR][CR]$INFO[ListItem.Director]</label>
+					<label>[COLOR labelheader]$LOCALIZE[31000]:[/COLOR] $INFO[ListItem.Director]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Director) + ( Container.Content(movies)| Container.Content(musicvideos) )</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[558]:[/COLOR][CR]$INFO[ListItem.Album]</label>
+					<label>[COLOR labelheader]$LOCALIZE[558]:[/COLOR] $INFO[ListItem.Album]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Album) + Container.Content(musicvideos)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[20416]:[/COLOR][CR]$INFO[ListItem.Premiered]</label>
+					<label>[COLOR labelheader]$LOCALIZE[20416]:[/COLOR] $INFO[ListItem.Premiered]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Premiered) + Container.Content(episodes)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[31019]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR labelheader]$LOCALIZE[31019]:[/COLOR] $INFO[ListItem.Studio]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Studio) + Container.Content(episodes)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[21899]:[/COLOR][CR]$INFO[ListItem.Studio]</label>
+					<label>[COLOR labelheader]$LOCALIZE[21899]:[/COLOR] $INFO[ListItem.Studio]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Studio) + Container.Content(musicvideos)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[515]:[/COLOR][CR]$INFO[ListItem.Genre]</label>
+					<label>[COLOR labelheader]$LOCALIZE[515]: [/COLOR]$INFO[ListItem.Genre]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Genre) + !Container.Content(episodes)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[2050]:[/COLOR][CR]$INFO[ListItem.Duration(mins),, $LOCALIZE[12391]]</label>
+					<label>[COLOR labelheader]$LOCALIZE[2050]: [/COLOR]$INFO[ListItem.Duration(mins),, $LOCALIZE[12391]]</label>
 					<width>650</width>
+					<height>50</height>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<include>VisibleFadeAnimation</include>
 					<visible>!String.IsEmpty(ListItem.Duration) + ![Container.Content(tvshows) | Container.Content(seasons)]</visible>
+				</control>
+				<control type="button">
+					<label>[COLOR labelheader]$LOCALIZE[73001] : [/COLOR]$INFO[ListItem.EndTime]</label>
+					<width>650</width>
+					<height>50</height>
+					<include>ShowCaseInfoPanelButtonsValues</include>
+					<visible>!String.IsEmpty(ListItem.EndTime)</visible>
 				</control>
 			</control>
 			<control type="image">
@@ -898,7 +912,7 @@
 					<visible>!String.IsEmpty(ListItem.Property(Album_Style)) + !Container.Content(artists)</visible>
 				</control>
 				<control type="button">
-					<label>[COLOR labelheader]$LOCALIZE[180]:[/COLOR][CR]$INFO[ListItem.Duration(mins)]</label>
+					<label>[COLOR labelheader]$LOCALIZE[180]:[/COLOR]$INFO[ListItem.Duration(mins)]</label>
 					<width>650</width>
 					<include>ShowCaseInfoPanelButtonsValues</include>
 					<visible>!String.IsEmpty(ListItem.Duration)</visible>
