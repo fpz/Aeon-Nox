@@ -194,6 +194,33 @@
 						<texture border="1">separator3.png</texture>
 					</control>
 					<control type="group">
+						<width>160</width>
+						<height>90</height>
+						<control type="label">
+							<top>2</top>
+							<width>160</width>
+							<height>30</height>
+							<align>center</align>
+							<label>Termine à</label>
+							<font>font12</font>
+							<textcolor>grey</textcolor>
+						</control>
+						<control type="label">
+							<top>12</top>
+							<width>160</width>
+							<height>90</height>
+							<align>center</align>
+							<label>$INFO[ListItem.EndTime]</label>
+							<font>font48_bold</font>
+							<textcolor>grey</textcolor>
+						</control>
+					</control>
+					<control type="image">
+						<width>2</width>
+						<height>90</height>
+						<texture border="1">separator3.png</texture>
+					</control>
+					<control type="group">
 						<visible>!String.IsEmpty(ListItem.Rating)</visible>
 						<width>200</width>
 						<control type="label">
