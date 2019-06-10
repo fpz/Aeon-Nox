@@ -168,7 +168,7 @@
 						<aspectratio>keep</aspectratio>
 						<texture>$VAR[UnFocusHDIndicator]</texture>
 						<colordiffuse>grey</colordiffuse>
-						<visible>!String.IsEmpty(ListItem.VideoResolution)</visible>
+						<!-- <visible>!String.IsEmpty(ListItem.VideoResolution)</visible> -->
 					</control>
 					<control type="label">
 						<label>$VAR[VideoSubLabelVar]</label>
